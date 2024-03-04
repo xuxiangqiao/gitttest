@@ -41,6 +41,29 @@
 11 从仓库回退到另一个仓库版本  git reset --hard 版本号
 
 
+分支
+
+查看 git branch
+
+创建分支 git branch 分支名
+
+切换分支 git checkout 分支名
+
+合并分支 git merge 分支名
+
+
+团队合作自己的流程：
+
+master(主分支)-》dev 分支 -》自己的分支
+
+1： 先创建自己的分支xu（基于dev）----(开发功能)-------> 提交到自己的仓库（git add .\ git commit -m""）-----(合并到dev分支)------>先切换到dev(git checkout dev\ git merge 自己的分支)
+
+2: 先创建自己的分支mingwei（基于dev）----(开发功能)-------> 提交到自己的仓库（git add .\ git commit -m""）-----(合并到dev分支)------>先切换到dev(git checkout dev\ git merge 自己的分支)
+
+-》合并到master分支(git checkout master\ git merge dev)
+
+
+
 
 
 
