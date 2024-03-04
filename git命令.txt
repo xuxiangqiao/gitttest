@@ -29,4 +29,19 @@
 
 7 查看状态  git status
 
+8 查看提交日志  git log
+
+
+9 查看所有的历史记录日志 git reflog
+
+回退
+
+10 从暂存区回退到工作区  git restore --staged 文件名  （撤销 git add 操作）
+
+11 从仓库回退到另一个仓库版本  git reset --hard 版本号
+
+
+
+
+
 
