@@ -1,0 +1,22 @@
+工作区、目录：我的电脑的某个地方
+
+暂存区
+
+仓库
+
+
+1. 配置提交人姓名：`git config --global user.name 提交人姓名`
+
+
+   查看提交人姓名：`git config --global user.name`
+
+
+2. 配置提交人邮箱：`git config --global user.email 提交人邮箱` 
+
+
+   查看提交人邮箱：`git config --global user.email`
+
+
+3. 查看git所有配置信息：`git config --list`  
+
+ 
